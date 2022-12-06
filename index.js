@@ -43,6 +43,3 @@ form.addEventListener("click", e=>{
     }
 
 })
-
-
-
