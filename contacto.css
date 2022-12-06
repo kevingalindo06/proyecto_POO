@@ -1,0 +1,190 @@
+*{padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+
+
+    #contacto{
+       
+        background: orange;
+        padding:  50 50px ;
+        color: white;
+    }
+      
+    #contacto h4{
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    #redes{
+        display: flex;
+        margin-left: 140px;
+        margin-top: 70px;
+    
+    }
+    
+    
+    
+    .icon {
+        
+        position: relative;
+        width: 80px;
+        height: 80px;
+        margin: 20px;
+        margin: 10px 50px 50px 180px;
+        border-radius: 50%;
+        transition: all .8s;
+        cursor: pointer;
+    }
+    
+    .icon:hover {
+        background-color: #e60073;
+        box-shadow:  0 0 20px #e60073 ;
+    }
+    
+    .icon:hover:nth-child(2) {
+        background-color: #1877f2;
+        box-shadow:  0 0 20px #1877f2;
+    }
+    
+    .icon:hover:nth-child(3) {
+        background-color: #25d366;
+        box-shadow: 0 0 20px #25d366 ;
+    }
+    
+    
+    .icon i {
+        color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        transform: translate(-50%,-50%);
+        font-size: 1.7rem;
+    }
+    
+    svg circle {
+        stroke-dasharray: 150;
+        transition: all .8s ease-in-out;
+    }
+    
+    .icon:hover circle {
+        stroke-dasharray: 220;
+    }
+    
+    
+    #contacto form{
+        max-width: 80%;
+        margin: 0 auto;
+    
+    }
+    .datos-form{
+        display: flex;
+    }
+    
+    .datos-form div{
+        padding: 10px;
+        flex: 1;
+    
+    }
+    form label{
+        display: block;
+        margin-bottom: 10px;
+    
+    }
+    
+    form input, textarea {
+        background: orange;
+        border-radius: 5px;
+        border:2px solid whitesmoke;
+        padding:10px 5px;
+        outline: 0;
+        color: white;
+        width: 100%;
+    
+        
+        
+    }
+    
+    form input:focus,
+    form textarea:focus{
+        border-color:rgb(58, 57, 57);
+        box-shadow: 0 0 0 1px whitesmoke;
+    }
+    
+    form input::placeholder,
+    form textarea::placeholder{
+        color: white;
+    }
+    
+    .mensaje{
+    
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .boton-formulario .boton-saber-mas{
+       display: block;
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        margin-top: 30px;   
+        border: 1px solid whitesmoke;
+        border-radius: 20px;
+        text-align: center;
+        align-self: center;
+        justify-content: center;
+        transition: 0.5s;
+    
+    
+    
+    }
+    .boton-formulario .boton-saber-mas:hover{
+    
+        background: rgba(255, 123, 0, 0.726);
+    
+    }
+    
+    #volver{
+
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        padding: 50px;
+       
+        
+
+    }
+
+    #volver a{
+
+        color: white;
+        text-decoration: none;
+        border: 1px solid whitesmoke;
+        border-radius: 20px;
+        padding: 10px 20px;
+        transition: 0.5s;
+        
+        
+    }
+
+    #volver a:hover{
+        background: rgba(255, 123, 0, 0.726);
+    }
+
+    
+    footer{
+    
+        background: gray;
+        color: whitesmoke;
+        text-align: center;
+        padding: 10px 0px;
+       justify-content: center;
+    }
+    
+    
