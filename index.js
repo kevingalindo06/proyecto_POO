@@ -1,3 +1,5 @@
+//este comentario debe aparecer en el espacio de trabajo de github
+
 const validacion = document.getElementById('valid')
 validacion.style.display = 'none'
 const ingresar = document.getElementById('validacion')
