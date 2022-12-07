@@ -43,5 +43,3 @@ form.addEventListener("click", e=>{
     }
 
 })
-
-// other commett
