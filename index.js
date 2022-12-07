@@ -43,5 +43,4 @@ form.addEventListener("click", e=>{
     }
 
 })
-
-// other commet
+//      quiubo   xd//      quiubo   xd//      quiubo   xd//      quiubo   xd//      quiubo   xd//      quiubo   xds
